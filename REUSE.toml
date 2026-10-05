@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2026 rumahl contributors
+#
+# License layering for the rumahl assets repository. See README "Licensing".
+#
+# Default for first-party assets is CC BY-NC-SA 4.0. Bundled third-party
+# assets override this per path below. See CONTRIBUTING.md for how to add an
+# asset and declare its license.
+version = 1
+
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 rumahl contributors"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+
+# Third-party photographic wallpapers. Cannot be relicensed; see
+# LICENSES/LicenseRef-Unsplash.txt for attribution.
+[[annotations]]
+path = "wallpapers/**"
+SPDX-FileCopyrightText = "John Rodenn Castillo, John Towner, Jonny James, and Unsplash (monstera, source to confirm)"
+SPDX-License-Identifier = "LicenseRef-Unsplash"
